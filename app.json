@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "hillelapp",
+    "slug": "hillelapp2",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#7D1516"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pandapig12.hillelapp2",
+      "buildNumber" : "7",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app uses location to check is the user is at Hillel to make sure that the person is at the event that they claim to be at. The users location is only used for one thing. It is compared to the location of Hillel and if the device's location is within a certain tolerence, it will let the user check in, otherwise the user will see a screen that displays Hillel's socials."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d4d05c2a-4545-4e98-8800-05f56f5d7f92"
+      }
+    }
+  }
+}
